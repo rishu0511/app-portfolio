@@ -97,7 +97,6 @@ img{
 .fdiv{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin-right: 200px;
 }
 .project-divs{
@@ -127,7 +126,7 @@ h2{
 }
 .codebox{
   background-color: black;
-  width:70%;
+  width:95%;
   padding: 10px;
   border-radius: 5px;
 
@@ -164,7 +163,28 @@ h2{
   .fdiv img{
     width:300px;
   }
-  li img{
-    width:70px;
+  #DP{
+    width:300px;
+    height: 330px;
+  }
+  .title{
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 50%;
+  }
+  .second-div{
+    justify-content: left;
+    padding-left: 5px;
+  }
+  .box{
+    padding: 0px;
+    width: 100%;
+  }
+  ul {
+  padding-left: 3px; /* Align the text of the list item with the left margin */
+  list-style-position:initial; /* Move the bullet/number inside the list item box */
+  }
+  li{
+    width: 90%;
   }
 }
