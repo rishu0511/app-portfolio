@@ -1,0 +1,170 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  background-color:#31363F; ;
+}
+.header{
+  background-color: #31363F;
+  height:100vh;
+}
+.button-div{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.button-div .link{
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+  color:#EEEEEE;
+  width:90px;
+  height: 22px;
+  margin: 10px;
+  background-color: #222831;
+}
+#title{
+  display: inline;
+  font-size: 70px;
+  font-style: normal;
+}
+#name{
+  font-size: 40px;
+  margin-left: 0px;
+  margin-top: 0px;
+  font-style: normal;
+}
+.title{
+  margin-left: 0px;
+  margin-top: 80px;
+  width: 50%;
+}
+.second-div{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.link:hover {
+  font-size: 15px;
+  background-color: #76ABAE;
+}
+.bottom-intro{
+  margin-top: 100px;
+  height:100%;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #76ABAE;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-direction: column;
+
+}
+.box{
+  margin-top:30px;
+  margin-bottom: 10px;
+  width:90%;
+  background-color: #EEEEEE;
+  padding: 10px;
+  border-radius: 10px;
+}
+h3{
+  color: #222831;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+  display:flow-root;
+  color: #31363F;
+  font-family: 'Franklin Gothic Medium';
+}
+.title-p{
+  color:#76ABAE;
+}
+#DP{
+  border:#222831 solid 10px;
+  border-color: #222831;
+  border-radius: 50%;
+}
+img{
+  display: inline;
+}
+.fdiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 200px;
+}
+.project-divs{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+#p_title{
+  font-size: 50px;
+  color: #76ABAE;
+  display:flex;
+  justify-content: space-evenly;
+}
+li{
+  color: #31363F;
+  font-family: 'Franklin Gothic Medium';
+  
+}
+h2{
+  color:#76ABAE
+}
+#w_bottom{
+  margin-left: 40px;
+}
+.skills{
+  background-color:#EEEEEE;
+}
+.codebox{
+  background-color: black;
+  width:70%;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+.codepara{
+  font-family:sans-serif;
+  font-style: "";
+  color:#76ABAE;
+
+}
+.imgreset{
+  width: 80%;
+  height:30%;
+}
+@media screen and (max-width: 600px) {
+  .button-div{
+    display:flex;
+    justify-items:flex-start;
+  }
+  .button-div .link{
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-size: 13px;
+    border: none;
+    border-radius: 3px;
+    padding: 2px;
+    color:#EEEEEE;
+    width:80px;
+    height: 22px;
+    margin: 10px;
+    background-color: #222831;
+  }
+  .fdiv img{
+    width:300px;
+  }
+  li img{
+    width:70px;
+  }
+}
