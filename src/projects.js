@@ -24,8 +24,6 @@ function Project(){
                     <h2>Charts and graphs</h2>
                     <p>In this project we have four forms By filling these forms we can make histogram,parabola,bar graphs and piecharts.<br/></p>
                     <p>I have hosted my project on vercel go on bellow link <br/><a href="https://charts-graphs.vercel.app">Charts and graph</a></p>
-                <ul>
-                    <li>
                         <h3 className='title-p'>Pie Charts</h3>
                         <img class="imgreset" src={piechart}/>
                         <h4>Form for Piechart</h4>
@@ -44,9 +42,7 @@ function Project(){
 
                             </div>
                         </div>
-                    </li><br/>
-                    <li>
-                        <h3 className='title-p'>Parabola</h3>
+                         <h3 className='title-p'>Parabola</h3>
                         <img class="imgreset"  src={parabola}/>
                         <h4>Form for Parabola</h4>
                         <div className="fdiv">
@@ -64,9 +60,6 @@ function Project(){
 
                             </div>
                         </div>
-
-                    </li><br/>
-                    <li>
                         <h3 className='title-p'>Histogram</h3>
                         <img class="imgreset"  src={Histogram}/>
                         <h4>Form for Histogram</h4>
@@ -87,10 +80,7 @@ function Project(){
 
                             </div>
                         </div>
-
-                    </li><br/>
-                    <li>
-                        <h3 className='title-p'>BarGraph</h3>
+                                                <h3 className='title-p'>BarGraph</h3>
                         <img class="imgreset"  src={Bargraph}/>
                         <h4>Form for BarGraph</h4>
                         <div className="fdiv">
@@ -110,10 +100,6 @@ function Project(){
                                 <p>After that you can click on draw for drawing and download for<br/> downloading that chart</p>
                             </div>
                         </div>
-
-                    </li><br/>
-                </ul>
-                
                 </div>
                 <div className="box" >
                     <h2>NoteBook</h2>
@@ -121,9 +107,7 @@ function Project(){
                     All of this are main feachers and a visual calculater for instant calculate with in the website.<br/><br/>
                     I have hosted this project on vercel you can check out link given below:-<br/>
                     <a href="">Notebook</a><p/></p>
-                    <ul>
-                        <li>
-                            <h3 className='title-p'>Feachers</h3>
+                     <h3 className='title-p'>Feachers</h3>
                             <div className="fdiv">
                                 <img src={Feachers}/>
                                 <div>
@@ -135,9 +119,7 @@ function Project(){
                                     </ol>
                                 </div>
                             </div>
-                        </li>
-                        <li>
-                            <h3 className='title-p'>Notes</h3>
+                     <h3 className='title-p'>Notes</h3>
                             <div className="fdiv">
                                 <img src={Notes}/>
                                 <div>
@@ -148,9 +130,7 @@ function Project(){
                                     </ol>
                                 </div>
                             </div>
-                        </li>
-                        <li>
-                            <h3 className='title-p'>Calculater</h3>
+                      <h3 className='title-p'>Calculater</h3>
                             <div className="fdiv">
                                 <img src={Calculater}/>
                                 <div>
@@ -161,10 +141,6 @@ function Project(){
                                     </ul>
                                 </div>
                             </div>
-
-                        </li>
-
-                    </ul>
                 </div>
                 <div className="box" >
                     <h2>City Weather</h2>
