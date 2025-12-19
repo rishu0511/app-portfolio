@@ -75,7 +75,14 @@ function Skills(){
                 <h2>Api integration and geolocation</h2>
                 <p>Here I have extracted form values and finding its latitude and longitude.(by using axios)<br/>
                 then giving it to openweather api url for weather data<br/>
-                here is github code:-<a href={"https://github.com/rishu0511/client/blob/main/server/server.js"}>Api integration</a> </p>
+                here is github code:-<a href={"https://github.com/rishu0511/client/blob/main/server/server.js"}>server api integration</a><br/><br/>
+                In weather project I have seprated project into two parts first frontend second server.<br/>
+                then from the frontend i have called through rest api (get,post) and then from the server i have called geolocation and openweather for weather information for given location. <br/>
+                here is code for http calls from frontend:- <a href="https://github.com/rishu0511/weatherapp/blob/main/src/fetch.js">Fetching from frontend</a></p>
+                <h2>Visual calculater:-</h2>
+                <p>Calculater is very good for touch screen users. here you have 10 buttons for input of numbers and seven oprater(like plus,minus,multiply etc) buttons.<br/>
+                so here i use usecallback hooks to show dynamically entered numbers and then lots of numeric and disabling of buttons dynamic to project response good and it works better.
+                here is github code for visual calculater:-<a href="https://github.com/rishu0511/Dairy/blob/main/src/calculater.js">Calculater</a></p>
             </div>
         </div>
     )

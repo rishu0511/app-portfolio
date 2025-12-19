@@ -97,6 +97,7 @@ img{
 .fdiv{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   margin-right: 200px;
 }
 .project-divs{
@@ -181,5 +182,15 @@ h2{
   }
   li{
     width: 90%;
+  }
+  .fdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 0px;
+  }
+  .link:hover {
+    font-size: 15px;
+    background-color: #76ABAE;
   }
 }

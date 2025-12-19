@@ -33,9 +33,9 @@ function Project(){
                              <p>You can fill values in this form like this:-</p>
                                 <ol>
                                     <li>Fill the title of Piechart</li><br/>
-                                    <li>Fill all numbers(for making of piechart) with single space</li><br/>
-                                       <li>Fill all names with one space respectivly to above give <br/>numbers</li><br/>
-                                    <li>Fill all respective colors with single space</li><br/>
+                                    <li>Fill all numbers(for making of piechart) with single coma(,)</li><br/>
+                                       <li>Fill all names with one coma(,) to above give <br/>numbers</li><br/>
+                                    <li>Fill all respective colors with single coma(,)</li><br/>
                                     <li>Total sum of all numbers</li>
                                 </ol><br/>
                                 <p>After that you can click on draw for drawing and download for<br/> downloading that chart</p>
@@ -68,19 +68,19 @@ function Project(){
                             <div>
                                 <p>You can fill values in this form like this:-</p>
                                 <ol>
-                                    <li>First Background color single space then Font color <br/>single space title </li><br/>
-                                    <li>Fundametal unit of X line and single space label of x axis </li><br/>
-                                    <li>Fundametal unit of Y line and single space label of y axis</li><br/>
+                                    <li>First Background color single coma(,) then Font color <br/>single space title </li><br/>
+                                    <li>Fundametal unit of X line and single coma(,) label of x axis </li><br/>
+                                    <li>Fundametal unit of Y line and single coma(,) label of y axis</li><br/>
                                     <li>How many number you want on X axis</li><br/>
                                     <li>How many number you want on Y axis</li><br/>
-                                    <li>Histogram values with single gap</li><br/>
+                                    <li>Histogram values with single coma(,)</li><br/>
                                     <li>Histogram respective colors with values</li><br/>
                                 </ol><br/>
                                 <p>After that you can click on draw for drawing and download for<br/> downloading that chart</p>
 
                             </div>
                         </div>
-                                                <h3 className='title-p'>BarGraph</h3>
+                        <h3 className='title-p'>BarGraph</h3>
                         <img class="imgreset"  src={Bargraph}/>
                         <h4>Form for BarGraph</h4>
                         <div className="fdiv">
@@ -88,12 +88,12 @@ function Project(){
                             <div>
                                 <p>You can fill values in this form like this:-</p>
                                 <ol>
-                                    <li>First Background color single space then Font color <br/>single space title </li><br/>
+                                    <li>First Background color single coma(,) then Font color <br/>single coma(,) title </li><br/>
                                     <li>Label of x axis </li><br/>
-                                    <li>Fundametal unit of Y line and single space label of y axis</li><br/>
+                                    <li>Fundametal unit of Y line and single coma(,) label of y axis</li><br/>
                                     <li>How many bar graph you want (always give more<br/> than you want )</li><br/>
                                     <li>How many number you want on Y axis</li><br/>
-                                    <li>BarGraph values with single gap</li><br/>
+                                    <li>BarGraph values with single coma(,)</li><br/>
                                     <li>BarGraph respective names with values</li><br/>
                                     <li>BarGraph respective colors with values</li><br/>
                                 </ol><br/>
@@ -102,11 +102,11 @@ function Project(){
                         </div>
                 </div>
                 <div className="box" >
-                    <h2>NoteBook</h2>
+                    <h2>Dairy</h2>
                     <p>This project have a notebook frontend where ADD,Delete,edit,search and showing all notebook by a button.<br/>
                     All of this are main feachers and a visual calculater for instant calculate with in the website.<br/><br/>
                     I have hosted this project on vercel you can check out link given below:-<br/>
-                    <a href="">Notebook</a><p/></p>
+                    <a href="">Dairy</a><p/></p>
                      <h3 className='title-p'>Feachers</h3>
                             <div className="fdiv">
                                 <img src={Feachers}/>
@@ -123,7 +123,7 @@ function Project(){
                             <div className="fdiv">
                                 <img src={Notes}/>
                                 <div>
-                                    <p>Notes have edit and delete to do changes inside notes.</p>
+                                    <p>Dairy have edit and delete to do changes inside notes.</p>
                                     <ol>
                                         <li>We have edit button to change in notes</li><br/>
                                         <li>We have delete to delete selected notes.</li><br/>
@@ -134,7 +134,7 @@ function Project(){
                             <div className="fdiv">
                                 <img src={Calculater}/>
                                 <div>
-                                    <p>Notes have edit and delete to do changes inside notes.</p>
+                                    <p>Dairy have edit and delete to do changes inside notes.</p>
                                     <ul>
                                         <li>This feacher is usefull for touchscreen user who can calculate by clicking <br/> on numbers button,opraters button and also have clear,back button  </li>
                                         <li>Properly working and very flexible to use.</li>
