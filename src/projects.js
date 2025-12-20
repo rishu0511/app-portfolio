@@ -17,7 +17,7 @@ import bottomdiv from "./images/bottom-things.png"
 
 function Project(){
     return(
-        <div >
+        <div>
             <h1 id="p_title">Projects</h1>
             <div className="project-divs">
                 <div className="box">
@@ -106,7 +106,7 @@ function Project(){
                     <p>This project have a notebook frontend where ADD,Delete,edit,search and showing all notebook by a button.<br/>
                     All of this are main feachers and a visual calculater for instant calculate with in the website.<br/><br/>
                     I have hosted this project on vercel you can check out link given below:-<br/>
-                    <a href="">Dairy</a><p/></p>
+                    <a href="https://create-react-app-eta-jade.vercel.app/">Dairy</a></p>
                      <h3 className='title-p'>Feachers</h3>
                             <div className="fdiv">
                                 <img src={Feachers}/>
